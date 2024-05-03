@@ -18,26 +18,32 @@
     list-style: none;
     width: 80%;  
     align-self: center;
+    background-color: rgba(17, 17, 17, 0.335);
 }
 
 .list1{
     color: white;
     list-style: none;
     line-height: 2;
+    
 }
 .list2{
     color: white;
     list-style: none;
     line-height: 2;
+    /* background-color: red; */
 }.list3{
     color: white;
     list-style: none;
     line-height: 2;
+    /* background-color: green; */
 }.list4{
     color: white;
     list-style: none;
     line-height: 2;
+    /* background-color: yellow; */
 }
+
 .socials,.list1,.list2,.list3,.list4,.end{
 width: 30%;
 color:white;
