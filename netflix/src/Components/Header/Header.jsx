@@ -33,10 +33,11 @@ const Header = () => {
           <NotificationsIcon color="inherit" style={{ color: "white" }} />
         </li>
         <li>
-          <ArrowDropDownIcon color="inherit" style={{ color: "white" }} />
+          <AccountBoxIcon color="inherit" style={{ color: "white" }} />
+        
         </li>
         <li>
-          <AccountBoxIcon color="inherit" style={{ color: "white" }} />
+        <ArrowDropDownIcon color="inherit" style={{ color: "white" }}/>
         </li>
       </div>
     </div>

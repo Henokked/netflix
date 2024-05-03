@@ -5,10 +5,10 @@ import Footer from '../../Components/Footer/Footer'
 
 const Home = () => {
   return (
-    <>
+    <div style={{display:"flex", flexDirection:"column"}}>
 <Header/>
-{/* <Footer/> */}
-</>
+<Footer/>
+</div>
   )
 }
 

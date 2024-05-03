@@ -1,0 +1,52 @@
+
+/* .yellow{
+    color:red;
+    list-style: none;
+} */
+.socials{
+   display: flex;
+   justify-content: space-between;
+   width:10% !important;
+   
+   
+}
+
+.footer{
+    /* background: yellow; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 80%;  
+    align-self: center;
+}
+
+.list1{
+    color: white;
+    list-style: none;
+    line-height: 2;
+}
+.list2{
+    color: white;
+    list-style: none;
+    line-height: 2;
+}.list3{
+    color: white;
+    list-style: none;
+    line-height: 2;
+}.list4{
+    color: white;
+    list-style: none;
+    line-height: 2;
+}
+.socials,.list1,.list2,.list3,.list4,.end{
+width: 30%;
+color:white;
+list-style:none;
+
+}
+.social_parent{
+    list-style: none;
+    width: 80%;
+    align-self: center;
+    
+}
