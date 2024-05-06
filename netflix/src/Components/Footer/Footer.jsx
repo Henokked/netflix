@@ -27,16 +27,15 @@ const Footer = () => {
 
       <ul className="list1">
 
-        <li><a href="">FAQ</a></li>
-        <li><a href="">Investor Relation </a></li>
-        <li><a href="">Ways to Watch</a></li>
+        <li>Audio description</li>
+        <li>Investor Relation</li>
+        <li>legal notice</li>
 
-        <li><a href="">Corporate Information</a></li>
-        <li><a href="">Netflix Originals</a></li>
+        
       </ul>
       <ul className="list2">
-        <li><a href="">Home</a></li>
-        <li><a href="">Jobs</a></li>
+        <li>Help center</li>
+        <li>Jobs</li>
         <li><a href="">Terms of Use</a></li>
         <li><a href="">Contact Us</a></li>
      
