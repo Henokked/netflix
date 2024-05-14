@@ -1,0 +1,36 @@
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  /* font-size: larger; */
+  color: white;
+}
+.card {
+  overflow-x: scroll;
+  width: 100%;
+  white-space: nowrap;
+  
+  /* margin-left: 40px; */
+}
+.card::-webkit-scrollbar {
+  display: none;
+}
+.card img {
+  border-radius: 20px;
+  width: 200px;
+  cursor: pointer;
+  padding: 20px;
+
+}
+.card2:hover {
+  transform: scale(1.08);
+}
+.card3 {
+  height: 200px;
+}
+.card2{
+    padding: 20px;
+    
+    /* background-color: yellow; */
+
+}

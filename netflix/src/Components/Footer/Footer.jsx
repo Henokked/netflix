@@ -36,30 +36,30 @@ const Footer = () => {
       <ul className="list2">
         <li>Help center</li>
         <li>Jobs</li>
-        <li><a href="">Terms of Use</a></li>
-        <li><a href="">Contact Us</a></li>
+        <li>Terms of Use</li>
+        <li>Contact Us</li>
      
       </ul>
       <ul className="list3">
-        <li><a href="">Account</a></li>
-        <li><a href="">Redeem Gift Cards</a></li>
-        <li><a href="">Privacy</a></li>
-        <li><a href="">Speed Test</a></li>
+        <li>Redeem Gift Cards</li>
+        <li>Privacy</li>
+        <li>Speed Test</li>
+        <li>Account</li>
 
 
       </ul>
       <ul className="list4">
-        <li><a href="">Media Center</a> </li>
+        <li>Media Center </li>
        
-        <li><a href="">Buy Gift Cards</a></li>
-        <li><a href="">Cookie Preferences</a></li>
-        <li><a href="">Legal Notices</a></li>
+        <li>Buy Gift Cards</li>
+        <li>Cookie Preferences</li>
+        <li>Legal Notices</li>
      
 
       </ul>
       <div className="end">
     <h5>
-      <a href="">Netflix US</a>
+      <li>Netflix US</li>
     </h5>
    
   </div>
