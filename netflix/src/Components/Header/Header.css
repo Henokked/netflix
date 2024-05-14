@@ -3,9 +3,11 @@
   background-color: black;
   justify-content: space-between;
   align-items: center;
+  position: sticky;
 }
 .header_left {
   width: 50%;
+
 }
 .header_left ul {
   position: sticky;
@@ -19,6 +21,7 @@
 .header_left li {
   margin: auto;
   align-items: center;
+  font-size: small;
 }
 .icons {
   display: flex;
