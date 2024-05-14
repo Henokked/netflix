@@ -1,6 +1,5 @@
 const Api_key =import.meta.env.VITE_API_URL;
 // import.meta.env.VITE_API_URL;
-// const Api_key ="f2c68236bf33409a9fa85c21471dc282";
 
 console.log(Api_key)
 const requests = {
