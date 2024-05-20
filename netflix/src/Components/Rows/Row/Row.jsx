@@ -17,7 +17,7 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
     try {
       console.log("hello", fetchUrl);
       const request = await axios.get(fetchUrl);
-      console.log(request);
+      // console.log(request);
       setMovie(request.data.results);
     } catch (error) {
       console.log("eror", error);
@@ -32,8 +32,8 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
         (url) => {
           console.log(url);
           const urlparms = new URLSearchParams(new URL(url).search);
-          console.log(urlparms);
-          console.log(urlparms.get("v"));
+          // console.log(urlparms);
+          // console.log(urlparms.get("v"));
           setTrailerUrl(urlparms.get("v"));
         }
       );
@@ -62,11 +62,12 @@ const Row = ({ title, fetchUrl, isLargeRow }) => {
             alt=""
           />
         ))}
-       
       </div>
-      <div style={{ padding: "40px",}}>
-          {trailerUrl && <YouTube style={{width:"100%"}} videoId={trailerUrl} opts={opts} />}
-        </div>
+      <div style={{ padding: "40px" }}>
+        {trailerUrl && (
+          <YouTube style={{ width: "100%" }} videoId={trailerUrl} opts={opts} />
+        )}
+      </div>
     </>
   );
 };
